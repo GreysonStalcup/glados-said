@@ -1,0 +1,25 @@
+{
+  "name": "glados-said",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CLI that enables quotes randomly generated quotes from GlaDOS(Portal)",
+  "license": "MIT",
+  "repository": "GreysonStalcup/glados-said",
+  "main": "bin/index.js",
+  "bin": {
+    "glados-said": "--experimental-wasm-modules ./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": { 
+    "name": "Greyson Stalcup",
+    "email": "greyson@greysons.dev",
+    "url": "https://greysons.dev"
+  },
+  "keywords": [
+    "glados",
+    "quote",
+    "portal"
+  ]
+}
