@@ -7,7 +7,7 @@
   "repository": "GreysonStalcup/glados-said",
   "main": "bin/index.js",
   "bin": {
-    "glados-said": "--experimental-wasm-modules ./bin/index.js"
+    "glados-said": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
