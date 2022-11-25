@@ -5,6 +5,17 @@ GLaDOS said is a CLI tool that will return a randomly generated quote said by GL
 
 # Installation
 
+## Using NPM
+
+To install this tool with `NPM` run:
+
+```sh
+npm install -g glados-said
+```
+
+## Manual Installation
+
+
 To Install this tool: 
 
 ```sh
@@ -27,3 +38,8 @@ npm install -g
 Using this tool is pretty straight forward. After installed globally, simply run the command `glados-said`. For added fun, you can pass that to [cowsay](https://en.wikipedia.org/wiki/Cowsay).  Additionally, you can add a GLaDOS cowfile to your cowfiles directory to have GLaDOS say the quotes!  
 
 * [GLaDOS Cowfile](https://github.com/paulkaefer/cowsay-files/blob/main/examples.md#glados-colorcow)
+
+# TODOS
+* [x] Scrape quotes from GLaDOS quotes page.
+* [ ] Remove duplicate quotes
+* [ ] Take out useless quotes (i.e., "yeah.")
