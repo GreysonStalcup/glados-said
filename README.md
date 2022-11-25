@@ -3,6 +3,15 @@
 ## Description 
 GLaDOS said is a CLI tool that will return a randomly generated quote said by GLaDOS in the video game Portal (AND Portal 2).  
 
+### Use Case
+
+You can use GLaDOS said in combination with Cowsay to get some interesting results. Simply adding the line `glados-said | cowsay` to your `~/.zshrc` file (or whatever shell you're using) will a new quote every time you open your terminal. 
+
+(Scaled up GLaDOS Cow file was used). 
+
+![sample glados image](assets/image.png)  
+--- 
+
 # Installation
 
 ## Using NPM
