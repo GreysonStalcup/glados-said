@@ -1,6 +1,6 @@
 {
   "name": "glados-said",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "type": "module",
   "description": "CLI that enables quotes randomly generated quotes from GlaDOS(Portal)",
   "license": "MIT",
@@ -8,9 +8,6 @@
   "main": "bin/index.js",
   "bin": {
     "glados-said": "./bin/index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
     "name": "Greyson Stalcup",
