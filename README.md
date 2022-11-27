@@ -2,7 +2,7 @@
 
 ## Description
 
-GLaDOS said is a CLI tool that will return a randomly generated quote said by GLaDOS in the video game Portal (AND Portal 2).
+GLaDOS said is a CLI tool that will return a randomly generated quote said by GLaDOS in the video game Portal (AND Portal 2). This also can give your projects access to a random GLaDOS quote.
 
 ### Use Case
 
@@ -56,12 +56,34 @@ npm install -g
 
 # Usage
 
+## Using in CLI Globally
+
+This tool was **initially** written purely for usage with Cowsay via the CLI.
+
 Using this tool is pretty straight forward. After installed globally, simply run the command `glados-said`. For added fun, you can pass that to [cowsay](https://en.wikipedia.org/wiki/Cowsay). Additionally, you can add a GLaDOS cowfile to your cowfiles directory to have GLaDOS say the quotes!
 
-- [GLaDOS Cowfile](https://github.com/paulkaefer/cowsay-files/blob/main/examples.md#glados-colorcow)
+A GLaDOS Pixel art cowfile is provided in the [assets directory](assets/glados-pixel-small.cow).
+
+- [Alternative Large GLaDOS Cowfile](https://github.com/paulkaefer/cowsay-files/blob/main/examples.md#glados-colorcow)
+
+## Using in your own projects
+
+To gain access to GLaDOS quotes in your own projects, run `npm i glados-said` in the project directory.
+
+Once installed, usage is simple.
+
+Example after installing:
+
+```js
+//external_script.js
+import { Glados } from "glados-said";
+
+console.log(Glados.GetQuote());
+```
 
 # TODOS
 
 - [x] Scrape quotes from GLaDOS quotes page.
+- [x] Fix module exports to be easier to use from external projects.
 - [ ] Remove duplicate quotes
 - [ ] Take out useless quotes (i.e., "yeah.")

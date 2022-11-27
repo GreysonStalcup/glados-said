@@ -1,6 +1,6 @@
 {
   "name": "glados-said",
-  "version": "1.0.14",
+  "version": "1.1.0",
   "type": "module",
   "description": "CLI that enables quotes randomly generated quotes by GlaDOS from the video game Portal & Portal 2",
   "license": "MIT",
